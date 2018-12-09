@@ -1,0 +1,23 @@
+import java.util.*;
+public class Examen1 {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+double nota;
+System.out.println("Introduzca una nota entre 6 y 10: ");
+nota = sc.nextDouble();
+System.out.println("La calificación del alumno es ");
+
+if(nota < 6 || nota > 10)
+System.out.println("Nota no válida");
+else if(nota==10)
+System.out.println("Es diez");
+else if (nota >= 9)
+System.out.println("Es nueve");
+else if (nota >= 8)
+System.out.println("Es ocho");
+else if (nota >= 7)
+System.out.println("Es siete");
+else 
+System.out.println("Es seis");
+}
+}
